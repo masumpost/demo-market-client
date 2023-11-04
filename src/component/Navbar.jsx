@@ -1,5 +1,7 @@
 // import React from 'react';
 
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const lis = (
     <>
@@ -51,7 +53,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn text-xs">siginUp/register</a>
+          <Link to="login" className="btn text-xs">siginUp/register</Link>
         </div>
       </div>
     </>
